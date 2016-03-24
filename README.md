@@ -23,3 +23,7 @@ This would spit the table into your terminal window (allowing you to sanity chec
 
 `> ./tabulate.py my_data/*.json > data_for_excel.txt`
 
+## Note
+
+This tool only deals with "flat file" object data, i.e. something like {"foo": "bar", "baz": 17}. Any complex values will simply be output as strings.
+
