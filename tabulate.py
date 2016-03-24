@@ -52,6 +52,6 @@ for i in range(1, len(sys.argv)):
 		row[idx] = str(data[key])
 	rows.append(row)
 
-print '\t'.join(cols)
+print "\t".join(cols)
 for i in range(len(rows)):
-	print '\t'.join(rows[i])
+	print "\t".join(rows[i])
