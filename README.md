@@ -12,7 +12,7 @@ tools such as Excel and SPSS are not well-equipped to handle data in this format
 
 You'll need some familiarity with the command-line to use this tool. If that doesn't frighten you, it's a snap.
 
-To install, simply copy the file onto your machine and chmod a+x tabulate.py to make it executable.
+To install, simply copy the file onto your machine and then `chmod a+x tabulate.py` to make it executable.
 
 To use it, simply point your json files at it, so (for example) if you have tabulate.py in your home directory and a bunch 
 of json files in a folder named my_data in your home directory, you would do something like:
